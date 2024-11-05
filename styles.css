@@ -1,0 +1,42 @@
+/* Estilos gerais para a grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 100px); /* 6 colunas */
+    grid-template-rows: repeat(5, 100px); /* 6 linhas */
+    gap: 1px;
+}
+
+/* Estilos gerais para os quadrados */
+.square {
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+/* Cores específicas para cada linha */
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* Estilos para os cantos */
+.corner {
+    border: 2px solid darkred;
+}
+
+/* Efeito hover nos cantos */
+.corner:hover {
+    background-color: darkorange;
+}
